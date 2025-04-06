@@ -1,5 +1,10 @@
-## Next.js App Router Course - Starter
+# 项目入门
 
-This is the starter template for the Next.js App Router Course. It contains the starting code for the dashboard application.
+## 文件夹结构
 
-For more information, see the [course curriculum](https://nextjs.org/learn) on the Next.js Website.
+- /app：包含应用程序的所有路由、组件和逻辑，这是主要工作的地方。 
+- /app/lib: 包含应用程序中使用的函数，例如可重用的实例函数和数据获取函数。
+- /app/ui: 包含应用程序的所有 UI 组件。
+- /public: 包含应用程序的所有静态资源。
+- /script/: 包含一个  seeding 脚本, 可以用在后面用来填充数据库。
+- 配置文件: nextjs.config.ts.
